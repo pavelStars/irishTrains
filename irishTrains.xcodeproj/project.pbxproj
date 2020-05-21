@@ -14,6 +14,21 @@
 		8736E4CC2470F6DA00826DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8736E4CB2470F6DA00826DE1 /* Assets.xcassets */; };
 		8736E4CF2470F6DA00826DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8736E4CD2470F6DA00826DE1 /* LaunchScreen.storyboard */; };
 		8736E4DA2470F6DA00826DE1 /* irishTrainsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4D92470F6DA00826DE1 /* irishTrainsTests.swift */; };
+		8736E4ED2470F91300826DE1 /* StationsListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4E52470F91300826DE1 /* StationsListViewInput.swift */; };
+		8736E4EE2470F91300826DE1 /* StationsListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4E62470F91300826DE1 /* StationsListInteractorOutput.swift */; };
+		8736E4EF2470F91300826DE1 /* StationsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4E72470F91300826DE1 /* StationsListPresenter.swift */; };
+		8736E4F02470F91300826DE1 /* StationsListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4E82470F91300826DE1 /* StationsListInteractorInput.swift */; };
+		8736E4F12470F91300826DE1 /* StationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4E92470F91300826DE1 /* StationsListViewController.swift */; };
+		8736E4F22470F91300826DE1 /* StationsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4EA2470F91300826DE1 /* StationsListInteractor.swift */; };
+		8736E4F32470F91300826DE1 /* StationsListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4EB2470F91300826DE1 /* StationsListViewOutput.swift */; };
+		8736E4F42470F91300826DE1 /* StationsListModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4EC2470F91300826DE1 /* StationsListModuleConfigurator.swift */; };
+		8736E4FB2470FA6C00826DE1 /* UIViewController+StoryBoardCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4FA2470FA6C00826DE1 /* UIViewController+StoryBoardCreation.swift */; };
+		8736E4FD2470FB9500826DE1 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4FC2470FB9500826DE1 /* NSObject+ClassName.swift */; };
+		8736E4FF2470FC6C00826DE1 /* Activable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4FE2470FC6C00826DE1 /* Activable.swift */; };
+		8736E5012470FD5F00826DE1 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E5002470FD5F00826DE1 /* ErrorHandler.swift */; };
+		8736E5032470FF0500826DE1 /* StoryboardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E5022470FF0500826DE1 /* StoryboardProvider.swift */; };
+		8736E5062471061900826DE1 /* StationListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E5052471061900826DE1 /* StationListCoordinator.swift */; };
+		8736E50824710EC400826DE1 /* UIViewController+ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E50724710EC400826DE1 /* UIViewController+ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +53,21 @@
 		8736E4D52470F6DA00826DE1 /* irishTrainsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = irishTrainsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8736E4D92470F6DA00826DE1 /* irishTrainsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = irishTrainsTests.swift; sourceTree = "<group>"; };
 		8736E4DB2470F6DA00826DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8736E4E52470F91300826DE1 /* StationsListViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListViewInput.swift; sourceTree = "<group>"; };
+		8736E4E62470F91300826DE1 /* StationsListInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListInteractorOutput.swift; sourceTree = "<group>"; };
+		8736E4E72470F91300826DE1 /* StationsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListPresenter.swift; sourceTree = "<group>"; };
+		8736E4E82470F91300826DE1 /* StationsListInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListInteractorInput.swift; sourceTree = "<group>"; };
+		8736E4E92470F91300826DE1 /* StationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListViewController.swift; sourceTree = "<group>"; };
+		8736E4EA2470F91300826DE1 /* StationsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListInteractor.swift; sourceTree = "<group>"; };
+		8736E4EB2470F91300826DE1 /* StationsListViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListViewOutput.swift; sourceTree = "<group>"; };
+		8736E4EC2470F91300826DE1 /* StationsListModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListModuleConfigurator.swift; sourceTree = "<group>"; };
+		8736E4FA2470FA6C00826DE1 /* UIViewController+StoryBoardCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryBoardCreation.swift"; sourceTree = "<group>"; };
+		8736E4FC2470FB9500826DE1 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		8736E4FE2470FC6C00826DE1 /* Activable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activable.swift; sourceTree = "<group>"; };
+		8736E5002470FD5F00826DE1 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		8736E5022470FF0500826DE1 /* StoryboardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardProvider.swift; sourceTree = "<group>"; };
+		8736E5052471061900826DE1 /* StationListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListCoordinator.swift; sourceTree = "<group>"; };
+		8736E50724710EC400826DE1 /* UIViewController+ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ErrorHandler.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +109,7 @@
 		8736E4C12470F6D800826DE1 /* irishTrains */ = {
 			isa = PBXGroup;
 			children = (
+				8736E4E42470F8E400826DE1 /* StationsModule */,
 				8736E4C22470F6D800826DE1 /* AppDelegate.swift */,
 				8736E4C42470F6D800826DE1 /* SceneDelegate.swift */,
 				8736E4C62470F6D800826DE1 /* ViewController.swift */,
@@ -97,6 +128,76 @@
 				8736E4DB2470F6DA00826DE1 /* Info.plist */,
 			);
 			path = irishTrainsTests;
+			sourceTree = "<group>";
+		};
+		8736E4E42470F8E400826DE1 /* StationsModule */ = {
+			isa = PBXGroup;
+			children = (
+				8736E4F82470F94C00826DE1 /* Configurator */,
+				8736E5042471059800826DE1 /* Coordinator */,
+				8736E4F72470F94400826DE1 /* Interactor */,
+				8736E4F62470F93800826DE1 /* Presenter */,
+				8736E4F92470FA3800826DE1 /* Utils */,
+				8736E4F52470F93100826DE1 /* View */,
+			);
+			path = StationsModule;
+			sourceTree = "<group>";
+		};
+		8736E4F52470F93100826DE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8736E4EB2470F91300826DE1 /* StationsListViewOutput.swift */,
+				8736E4E52470F91300826DE1 /* StationsListViewInput.swift */,
+				8736E4E92470F91300826DE1 /* StationsListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8736E4F62470F93800826DE1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8736E4E72470F91300826DE1 /* StationsListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8736E4F72470F94400826DE1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8736E4E62470F91300826DE1 /* StationsListInteractorOutput.swift */,
+				8736E4E82470F91300826DE1 /* StationsListInteractorInput.swift */,
+				8736E4EA2470F91300826DE1 /* StationsListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8736E4F82470F94C00826DE1 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				8736E4EC2470F91300826DE1 /* StationsListModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		8736E4F92470FA3800826DE1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8736E4FA2470FA6C00826DE1 /* UIViewController+StoryBoardCreation.swift */,
+				8736E4FC2470FB9500826DE1 /* NSObject+ClassName.swift */,
+				8736E4FE2470FC6C00826DE1 /* Activable.swift */,
+				8736E5002470FD5F00826DE1 /* ErrorHandler.swift */,
+				8736E5022470FF0500826DE1 /* StoryboardProvider.swift */,
+				8736E50724710EC400826DE1 /* UIViewController+ErrorHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8736E5042471059800826DE1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8736E5052471061900826DE1 /* StationListCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +302,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8736E4C72470F6D800826DE1 /* ViewController.swift in Sources */,
+				8736E4F02470F91300826DE1 /* StationsListInteractorInput.swift in Sources */,
+				8736E4F22470F91300826DE1 /* StationsListInteractor.swift in Sources */,
+				8736E4EE2470F91300826DE1 /* StationsListInteractorOutput.swift in Sources */,
+				8736E50824710EC400826DE1 /* UIViewController+ErrorHandler.swift in Sources */,
+				8736E4FD2470FB9500826DE1 /* NSObject+ClassName.swift in Sources */,
+				8736E5062471061900826DE1 /* StationListCoordinator.swift in Sources */,
+				8736E4F32470F91300826DE1 /* StationsListViewOutput.swift in Sources */,
+				8736E4F42470F91300826DE1 /* StationsListModuleConfigurator.swift in Sources */,
+				8736E5032470FF0500826DE1 /* StoryboardProvider.swift in Sources */,
 				8736E4C32470F6D800826DE1 /* AppDelegate.swift in Sources */,
+				8736E4ED2470F91300826DE1 /* StationsListViewInput.swift in Sources */,
+				8736E4FF2470FC6C00826DE1 /* Activable.swift in Sources */,
 				8736E4C52470F6D800826DE1 /* SceneDelegate.swift in Sources */,
+				8736E4F12470F91300826DE1 /* StationsListViewController.swift in Sources */,
+				8736E5012470FD5F00826DE1 /* ErrorHandler.swift in Sources */,
+				8736E4FB2470FA6C00826DE1 /* UIViewController+StoryBoardCreation.swift in Sources */,
+				8736E4EF2470F91300826DE1 /* StationsListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

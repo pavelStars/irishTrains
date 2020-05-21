@@ -10,11 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet private weak var continueButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupButtonAction()
     }
 
+    private func setupButtonAction() {
+        continueButton.addTarget(self, action: #selector(userDidTapActionButton), for: .touchUpInside)
+    }
 
+    @objc private func userDidTapActionButton() {
+        let errorHandler = ErrorHandler(viewController: self)
+
+        guard let navigationViewController = navigationController else {
+            return
+        }
+        let stationListCoordinator = StationListCoordinator(navigationController: navigationViewController,
+                                                            errorHandler: errorHandler)
+        stationListCoordinator.start()
+    }
 }
 
