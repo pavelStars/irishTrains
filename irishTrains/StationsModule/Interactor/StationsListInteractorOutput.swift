@@ -7,4 +7,6 @@
 //
 
 protocol StationsListInteractorOutput: class {
+    func didFetchStations(stations: [Station])
+    func didLoadDataWithError(error: Error)
 }

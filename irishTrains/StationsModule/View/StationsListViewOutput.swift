@@ -8,4 +8,7 @@
 
 protocol StationsListViewOutput {
     func viewIsReady()
+    func loadStations()
+    func didMakeSearchWithString(string: String, isFiltering: Bool)
+    func didTap(stationViewModel: StationViewModel)
 }

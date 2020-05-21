@@ -6,5 +6,6 @@
 //  Copyright (c) 2020 Pavel Terziyski. All rights reserved.
 //
 
-protocol StationsListViewInput: class, Activable {
+protocol StationsListViewInput: Activable {
+    func display(stationSection: StationSection<StationViewModel>)
 }

@@ -7,4 +7,5 @@
 //
 
 protocol StationsListInteractorInput {
+    func loadStations()
 }

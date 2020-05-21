@@ -8,7 +8,13 @@
 
 import UIKit
 
-typealias StationsListCompletionHandler = () -> Void
+enum StationsRedirectionAction {
+    case listStations
+    case detailStation(StationViewModel)
+    case trainDetails(TrainViewModel)
+}
+
+typealias StationsListCompletionHandler = (StationsRedirectionAction) -> Void
 
 class StationsListModuleConfigurator {
     public static func createModule(
@@ -16,8 +22,11 @@ class StationsListModuleConfigurator {
                                     completionHandler: @escaping StationsListCompletionHandler) -> UIViewController {
         let storyboard = StoryboardProvider.getStoryboard(of: .main)
         let viewController = StationsListViewController.controllerInStoryboard(storyboard)
-        let interactor = StationsListInteractor()
-        let presenter = StationsListPresenter(view: viewController, interactor: interactor, errorHandler: errorHandler, completionHandler: completionHandler)
+        let interactor = StationsListInteractor(webService: StationWebService())
+        let presenter = StationsListPresenter(view: viewController,
+                                              interactor: interactor,
+                                              errorHandler: errorHandler,
+                                              completionHandler: completionHandler)
 
         interactor.output = presenter
         viewController.output = presenter

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrainDetailTableViewCell" rowHeight="166" id="KGk-i7-Jjw" customClass="TrainDetailTableViewCell" customModule="irishTrains" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="166"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R5G-ow-fMx">
+                        <rect key="frame" x="0.0" y="8" width="379" height="150"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5hA-Yx-nDP">
+                                <rect key="frame" x="0.0" y="0.0" width="189.5" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAa-fa-1JT">
+                                        <rect key="frame" x="0.0" y="0.0" width="189.5" height="75"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="af5-N6-JF5">
+                                        <rect key="frame" x="0.0" y="75" width="189.5" height="75"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fAa-fa-1JT" firstAttribute="height" secondItem="af5-N6-JF5" secondAttribute="height" id="MQm-FH-6uV"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lKW-Lk-FaT">
+                                <rect key="frame" x="189.5" y="0.0" width="189.5" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghc-6h-2Cl">
+                                        <rect key="frame" x="0.0" y="0.0" width="189.5" height="75"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLy-Yv-4Wn">
+                                        <rect key="frame" x="0.0" y="75" width="189.5" height="75"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LLy-Yv-4Wn" firstAttribute="height" secondItem="Ghc-6h-2Cl" secondAttribute="height" id="rTG-Zf-Har"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="5hA-Yx-nDP" firstAttribute="width" secondItem="lKW-Lk-FaT" secondAttribute="width" id="Twx-uT-czB"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="R5G-ow-fMx" secondAttribute="bottom" constant="8" id="oRt-Qc-2gi"/>
+                    <constraint firstAttribute="trailing" secondItem="R5G-ow-fMx" secondAttribute="trailing" id="pai-cq-JFN"/>
+                    <constraint firstItem="R5G-ow-fMx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="s0t-sJ-pzg"/>
+                    <constraint firstItem="R5G-ow-fMx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ucv-xk-7aB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="trainDeparture" destination="Ghc-6h-2Cl" id="SkX-IE-663"/>
+                <outlet property="trainNameLabel" destination="fAa-fa-1JT" id="H1k-6t-0pd"/>
+                <outlet property="trainOrigin" destination="LLy-Yv-4Wn" id="6av-Vl-CNP"/>
+                <outlet property="trainTime" destination="af5-N6-JF5" id="Gce-O9-bdo"/>
+            </connections>
+            <point key="canvasLocation" x="180.43478260869566" y="46.875"/>
+        </tableViewCell>
+    </objects>
+</document>

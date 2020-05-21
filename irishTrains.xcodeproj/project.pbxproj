@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C6C2DA5B00A9035240F898 /* Pods_irishTrainsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A182432BEDA5BCB9E2C2A43B /* Pods_irishTrainsTests.framework */; };
+		0FD71E70130FDEB82169EAFA /* Pods_irishTrains.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC62660F1F9BE6DA2F3895 /* Pods_irishTrains.framework */; };
+		87040AC62472CD0F002FCCA2 /* StationsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87040AC52472CD0F002FCCA2 /* StationsWebService.swift */; };
+		87040AC82472CD9B002FCCA2 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87040AC72472CD9B002FCCA2 /* Station.swift */; };
 		8736E4C32470F6D800826DE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4C22470F6D800826DE1 /* AppDelegate.swift */; };
 		8736E4C52470F6D800826DE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4C42470F6D800826DE1 /* SceneDelegate.swift */; };
 		8736E4C72470F6D800826DE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E4C62470F6D800826DE1 /* ViewController.swift */; };
@@ -29,6 +33,39 @@
 		8736E5032470FF0500826DE1 /* StoryboardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E5022470FF0500826DE1 /* StoryboardProvider.swift */; };
 		8736E5062471061900826DE1 /* StationListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E5052471061900826DE1 /* StationListCoordinator.swift */; };
 		8736E50824710EC400826DE1 /* UIViewController+ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736E50724710EC400826DE1 /* UIViewController+ErrorHandler.swift */; };
+		876EFB2B2473FA6F002C33C0 /* Result+WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB2A2473FA6F002C33C0 /* Result+WebService.swift */; };
+		876EFB2F24740213002C33C0 /* StationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB2E24740213002C33C0 /* StationList.swift */; };
+		876EFB3124740965002C33C0 /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3024740965002C33C0 /* StationViewModel.swift */; };
+		876EFB3B24741EF4002C33C0 /* StationDetailsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3324741EF4002C33C0 /* StationDetailsViewInput.swift */; };
+		876EFB3C24741EF4002C33C0 /* StationDetailsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3424741EF4002C33C0 /* StationDetailsInteractorOutput.swift */; };
+		876EFB3D24741EF4002C33C0 /* StationDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3524741EF4002C33C0 /* StationDetailsPresenter.swift */; };
+		876EFB3E24741EF4002C33C0 /* StationDetailsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3624741EF4002C33C0 /* StationDetailsInteractorInput.swift */; };
+		876EFB3F24741EF4002C33C0 /* StationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3724741EF4002C33C0 /* StationDetailsViewController.swift */; };
+		876EFB4024741EF4002C33C0 /* StationDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3824741EF4002C33C0 /* StationDetailsInteractor.swift */; };
+		876EFB4124741EF4002C33C0 /* StationDetailsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3924741EF4002C33C0 /* StationDetailsViewOutput.swift */; };
+		876EFB4224741EF4002C33C0 /* StationDetailsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EFB3A24741EF4002C33C0 /* StationDetailsModuleConfigurator.swift */; };
+		879C39C62475B15200A309C6 /* TrainStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C39C42475B15200A309C6 /* TrainStationTableViewCell.swift */; };
+		879C39C72475B15200A309C6 /* TrainStationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 879C39C52475B15200A309C6 /* TrainStationTableViewCell.xib */; };
+		879C39C92475B22000A309C6 /* TrainStationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C39C82475B22000A309C6 /* TrainStationViewModel.swift */; };
+		87ACF9A72472B9B20078EBBB /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACF9A52472B9B20078EBBB /* StationTableViewCell.swift */; };
+		87ACF9A82472B9B20078EBBB /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87ACF9A62472B9B20078EBBB /* StationTableViewCell.xib */; };
+		87B8ADCA2474272C00D1CF5B /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADC92474272C00D1CF5B /* Train.swift */; };
+		87B8ADCC2474273D00D1CF5B /* TrainList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADCB2474273D00D1CF5B /* TrainList.swift */; };
+		87B8ADCE2474539400D1CF5B /* TrainMovementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADCD2474539400D1CF5B /* TrainMovementList.swift */; };
+		87B8ADD0247453A600D1CF5B /* TrainMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADCF247453A600D1CF5B /* TrainMovement.swift */; };
+		87B8ADD824757A2100D1CF5B /* StationDetailsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADD724757A2100D1CF5B /* StationDetailsList.swift */; };
+		87B8ADDA24757A9700D1CF5B /* StationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADD924757A9700D1CF5B /* StationDetail.swift */; };
+		87B8ADDC24758BAF00D1CF5B /* TrainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADDB24758BAF00D1CF5B /* TrainViewModel.swift */; };
+		87B8ADE02475905F00D1CF5B /* TrainDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADDE2475905F00D1CF5B /* TrainDetailTableViewCell.swift */; };
+		87B8ADE12475905F00D1CF5B /* TrainDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B8ADDF2475905F00D1CF5B /* TrainDetailTableViewCell.xib */; };
+		87B8ADEB2475A01D00D1CF5B /* TrainDetailViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADE32475A01D00D1CF5B /* TrainDetailViewInput.swift */; };
+		87B8ADEC2475A01D00D1CF5B /* TrainDetailInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADE42475A01D00D1CF5B /* TrainDetailInteractorOutput.swift */; };
+		87B8ADED2475A01D00D1CF5B /* TrainDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADE52475A01D00D1CF5B /* TrainDetailPresenter.swift */; };
+		87B8ADEE2475A01D00D1CF5B /* TrainDetailInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADE62475A01D00D1CF5B /* TrainDetailInteractorInput.swift */; };
+		87B8ADEF2475A01D00D1CF5B /* TrainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADE72475A01D00D1CF5B /* TrainDetailViewController.swift */; };
+		87B8ADF02475A01D00D1CF5B /* TrainDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADE82475A01D00D1CF5B /* TrainDetailInteractor.swift */; };
+		87B8ADF12475A01D00D1CF5B /* TrainDetailViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADE92475A01D00D1CF5B /* TrainDetailViewOutput.swift */; };
+		87B8ADF22475A01D00D1CF5B /* TrainDetailModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B8ADEA2475A01D00D1CF5B /* TrainDetailModuleConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +79,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		133D8D0FFB10E2C21661E752 /* Pods-irishTrainsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-irishTrainsTests.release.xcconfig"; path = "Target Support Files/Pods-irishTrainsTests/Pods-irishTrainsTests.release.xcconfig"; sourceTree = "<group>"; };
+		18CC62660F1F9BE6DA2F3895 /* Pods_irishTrains.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_irishTrains.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8764C37A5D918688A1FAFE /* Pods-irishTrains.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-irishTrains.release.xcconfig"; path = "Target Support Files/Pods-irishTrains/Pods-irishTrains.release.xcconfig"; sourceTree = "<group>"; };
+		62E520B68578C6A63C931085 /* Pods-irishTrains.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-irishTrains.debug.xcconfig"; path = "Target Support Files/Pods-irishTrains/Pods-irishTrains.debug.xcconfig"; sourceTree = "<group>"; };
+		87040AC52472CD0F002FCCA2 /* StationsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsWebService.swift; sourceTree = "<group>"; };
+		87040AC72472CD9B002FCCA2 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		8736E4BF2470F6D800826DE1 /* irishTrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = irishTrains.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8736E4C22470F6D800826DE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8736E4C42470F6D800826DE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +111,41 @@
 		8736E5022470FF0500826DE1 /* StoryboardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardProvider.swift; sourceTree = "<group>"; };
 		8736E5052471061900826DE1 /* StationListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListCoordinator.swift; sourceTree = "<group>"; };
 		8736E50724710EC400826DE1 /* UIViewController+ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ErrorHandler.swift"; sourceTree = "<group>"; };
+		876EFB2A2473FA6F002C33C0 /* Result+WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+WebService.swift"; sourceTree = "<group>"; };
+		876EFB2E24740213002C33C0 /* StationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationList.swift; sourceTree = "<group>"; };
+		876EFB3024740965002C33C0 /* StationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
+		876EFB3324741EF4002C33C0 /* StationDetailsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsViewInput.swift; sourceTree = "<group>"; };
+		876EFB3424741EF4002C33C0 /* StationDetailsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsInteractorOutput.swift; sourceTree = "<group>"; };
+		876EFB3524741EF4002C33C0 /* StationDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsPresenter.swift; sourceTree = "<group>"; };
+		876EFB3624741EF4002C33C0 /* StationDetailsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsInteractorInput.swift; sourceTree = "<group>"; };
+		876EFB3724741EF4002C33C0 /* StationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsViewController.swift; sourceTree = "<group>"; };
+		876EFB3824741EF4002C33C0 /* StationDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsInteractor.swift; sourceTree = "<group>"; };
+		876EFB3924741EF4002C33C0 /* StationDetailsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsViewOutput.swift; sourceTree = "<group>"; };
+		876EFB3A24741EF4002C33C0 /* StationDetailsModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsModuleConfigurator.swift; sourceTree = "<group>"; };
+		879C39C42475B15200A309C6 /* TrainStationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStationTableViewCell.swift; sourceTree = "<group>"; };
+		879C39C52475B15200A309C6 /* TrainStationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainStationTableViewCell.xib; sourceTree = "<group>"; };
+		879C39C82475B22000A309C6 /* TrainStationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStationViewModel.swift; sourceTree = "<group>"; };
+		87ACF9A52472B9B20078EBBB /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		87ACF9A62472B9B20078EBBB /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+		87B8ADC92474272C00D1CF5B /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		87B8ADCB2474273D00D1CF5B /* TrainList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainList.swift; sourceTree = "<group>"; };
+		87B8ADCD2474539400D1CF5B /* TrainMovementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainMovementList.swift; sourceTree = "<group>"; };
+		87B8ADCF247453A600D1CF5B /* TrainMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainMovement.swift; sourceTree = "<group>"; };
+		87B8ADD724757A2100D1CF5B /* StationDetailsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsList.swift; sourceTree = "<group>"; };
+		87B8ADD924757A9700D1CF5B /* StationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetail.swift; sourceTree = "<group>"; };
+		87B8ADDB24758BAF00D1CF5B /* TrainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewModel.swift; sourceTree = "<group>"; };
+		87B8ADDE2475905F00D1CF5B /* TrainDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailTableViewCell.swift; sourceTree = "<group>"; };
+		87B8ADDF2475905F00D1CF5B /* TrainDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainDetailTableViewCell.xib; sourceTree = "<group>"; };
+		87B8ADE32475A01D00D1CF5B /* TrainDetailViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailViewInput.swift; sourceTree = "<group>"; };
+		87B8ADE42475A01D00D1CF5B /* TrainDetailInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailInteractorOutput.swift; sourceTree = "<group>"; };
+		87B8ADE52475A01D00D1CF5B /* TrainDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailPresenter.swift; sourceTree = "<group>"; };
+		87B8ADE62475A01D00D1CF5B /* TrainDetailInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailInteractorInput.swift; sourceTree = "<group>"; };
+		87B8ADE72475A01D00D1CF5B /* TrainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailViewController.swift; sourceTree = "<group>"; };
+		87B8ADE82475A01D00D1CF5B /* TrainDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailInteractor.swift; sourceTree = "<group>"; };
+		87B8ADE92475A01D00D1CF5B /* TrainDetailViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailViewOutput.swift; sourceTree = "<group>"; };
+		87B8ADEA2475A01D00D1CF5B /* TrainDetailModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailModuleConfigurator.swift; sourceTree = "<group>"; };
+		A182432BEDA5BCB9E2C2A43B /* Pods_irishTrainsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_irishTrainsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75E2A5780CF258FEFFB2D16 /* Pods-irishTrainsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-irishTrainsTests.debug.xcconfig"; path = "Target Support Files/Pods-irishTrainsTests/Pods-irishTrainsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD71E70130FDEB82169EAFA /* Pods_irishTrains.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,18 +161,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C6C2DA5B00A9035240F898 /* Pods_irishTrainsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1440297878F34E575C9DF380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CC62660F1F9BE6DA2F3895 /* Pods_irishTrains.framework */,
+				A182432BEDA5BCB9E2C2A43B /* Pods_irishTrainsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87040AC42472CCF5002FCCA2 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				87040AC52472CD0F002FCCA2 /* StationsWebService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
 		8736E4B62470F6D700826DE1 = {
 			isa = PBXGroup;
 			children = (
 				8736E4C12470F6D800826DE1 /* irishTrains */,
 				8736E4D82470F6DA00826DE1 /* irishTrainsTests */,
 				8736E4C02470F6D800826DE1 /* Products */,
+				A724F886AC8F00E35879F1F6 /* Pods */,
+				1440297878F34E575C9DF380 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +208,9 @@
 		8736E4C12470F6D800826DE1 /* irishTrains */ = {
 			isa = PBXGroup;
 			children = (
+				876EFB2C2473FD8A002C33C0 /* Model */,
+				87B8ADE22475A00600D1CF5B /* TrainDetailModule */,
+				876EFB3224741ED8002C33C0 /* StationDetailModule */,
 				8736E4E42470F8E400826DE1 /* StationsModule */,
 				8736E4C22470F6D800826DE1 /* AppDelegate.swift */,
 				8736E4C42470F6D800826DE1 /* SceneDelegate.swift */,
@@ -137,6 +239,7 @@
 				8736E5042471059800826DE1 /* Coordinator */,
 				8736E4F72470F94400826DE1 /* Interactor */,
 				8736E4F62470F93800826DE1 /* Presenter */,
+				87040AC42472CCF5002FCCA2 /* WebServices */,
 				8736E4F92470FA3800826DE1 /* Utils */,
 				8736E4F52470F93100826DE1 /* View */,
 			);
@@ -146,6 +249,7 @@
 		8736E4F52470F93100826DE1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				87ACF9A42472B9880078EBBB /* Cells */,
 				8736E4EB2470F91300826DE1 /* StationsListViewOutput.swift */,
 				8736E4E52470F91300826DE1 /* StationsListViewInput.swift */,
 				8736E4E92470F91300826DE1 /* StationsListViewController.swift */,
@@ -188,6 +292,7 @@
 				8736E5002470FD5F00826DE1 /* ErrorHandler.swift */,
 				8736E5022470FF0500826DE1 /* StoryboardProvider.swift */,
 				8736E50724710EC400826DE1 /* UIViewController+ErrorHandler.swift */,
+				876EFB2A2473FA6F002C33C0 /* Result+WebService.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -200,6 +305,158 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		876EFB2C2473FD8A002C33C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87040AC72472CD9B002FCCA2 /* Station.swift */,
+				876EFB2E24740213002C33C0 /* StationList.swift */,
+				876EFB3024740965002C33C0 /* StationViewModel.swift */,
+				87B8ADDB24758BAF00D1CF5B /* TrainViewModel.swift */,
+				879C39C82475B22000A309C6 /* TrainStationViewModel.swift */,
+				87B8ADC92474272C00D1CF5B /* Train.swift */,
+				87B8ADCB2474273D00D1CF5B /* TrainList.swift */,
+				87B8ADCD2474539400D1CF5B /* TrainMovementList.swift */,
+				87B8ADCF247453A600D1CF5B /* TrainMovement.swift */,
+				87B8ADD724757A2100D1CF5B /* StationDetailsList.swift */,
+				87B8ADD924757A9700D1CF5B /* StationDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		876EFB3224741ED8002C33C0 /* StationDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				876EFB4324741EFB002C33C0 /* Configurator */,
+				876EFB4524741F1C002C33C0 /* Interactor */,
+				876EFB4624741F34002C33C0 /* Presenter */,
+				876EFB4724741F52002C33C0 /* View */,
+			);
+			path = StationDetailModule;
+			sourceTree = "<group>";
+		};
+		876EFB4324741EFB002C33C0 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				876EFB3A24741EF4002C33C0 /* StationDetailsModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		876EFB4524741F1C002C33C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				876EFB3424741EF4002C33C0 /* StationDetailsInteractorOutput.swift */,
+				876EFB3624741EF4002C33C0 /* StationDetailsInteractorInput.swift */,
+				876EFB3824741EF4002C33C0 /* StationDetailsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		876EFB4624741F34002C33C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				876EFB3524741EF4002C33C0 /* StationDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		876EFB4724741F52002C33C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87B8ADDD2475904000D1CF5B /* Cell */,
+				876EFB3324741EF4002C33C0 /* StationDetailsViewInput.swift */,
+				876EFB3724741EF4002C33C0 /* StationDetailsViewController.swift */,
+				876EFB3924741EF4002C33C0 /* StationDetailsViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		879C39C32475B13D00A309C6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				879C39C42475B15200A309C6 /* TrainStationTableViewCell.swift */,
+				879C39C52475B15200A309C6 /* TrainStationTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		87ACF9A42472B9880078EBBB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				87ACF9A52472B9B20078EBBB /* StationTableViewCell.swift */,
+				87ACF9A62472B9B20078EBBB /* StationTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		87B8ADDD2475904000D1CF5B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				87B8ADDE2475905F00D1CF5B /* TrainDetailTableViewCell.swift */,
+				87B8ADDF2475905F00D1CF5B /* TrainDetailTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		87B8ADE22475A00600D1CF5B /* TrainDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				87B8ADF32475A02400D1CF5B /* Configurator */,
+				87B8ADF42475A03400D1CF5B /* Interactor */,
+				87B8ADF52475A05500D1CF5B /* Presenter */,
+				87B8ADF62475A06600D1CF5B /* View */,
+			);
+			path = TrainDetailModule;
+			sourceTree = "<group>";
+		};
+		87B8ADF32475A02400D1CF5B /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				87B8ADEA2475A01D00D1CF5B /* TrainDetailModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		87B8ADF42475A03400D1CF5B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				87B8ADE42475A01D00D1CF5B /* TrainDetailInteractorOutput.swift */,
+				87B8ADE62475A01D00D1CF5B /* TrainDetailInteractorInput.swift */,
+				87B8ADE82475A01D00D1CF5B /* TrainDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		87B8ADF52475A05500D1CF5B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				87B8ADE52475A01D00D1CF5B /* TrainDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		87B8ADF62475A06600D1CF5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				879C39C32475B13D00A309C6 /* Cell */,
+				87B8ADE32475A01D00D1CF5B /* TrainDetailViewInput.swift */,
+				87B8ADE72475A01D00D1CF5B /* TrainDetailViewController.swift */,
+				87B8ADE92475A01D00D1CF5B /* TrainDetailViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A724F886AC8F00E35879F1F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62E520B68578C6A63C931085 /* Pods-irishTrains.debug.xcconfig */,
+				5B8764C37A5D918688A1FAFE /* Pods-irishTrains.release.xcconfig */,
+				C75E2A5780CF258FEFFB2D16 /* Pods-irishTrainsTests.debug.xcconfig */,
+				133D8D0FFB10E2C21661E752 /* Pods-irishTrainsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,9 +464,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8736E4DE2470F6DA00826DE1 /* Build configuration list for PBXNativeTarget "irishTrains" */;
 			buildPhases = (
+				81DB58C5CC188128DBB1EC39 /* [CP] Check Pods Manifest.lock */,
 				8736E4BB2470F6D800826DE1 /* Sources */,
 				8736E4BC2470F6D800826DE1 /* Frameworks */,
 				8736E4BD2470F6D800826DE1 /* Resources */,
+				190247FA6A4724373CE44DCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +483,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8736E4E12470F6DA00826DE1 /* Build configuration list for PBXNativeTarget "irishTrainsTests" */;
 			buildPhases = (
+				13C2B8ACF211B1DA884484A9 /* [CP] Check Pods Manifest.lock */,
 				8736E4D12470F6DA00826DE1 /* Sources */,
 				8736E4D22470F6DA00826DE1 /* Frameworks */,
 				8736E4D32470F6DA00826DE1 /* Resources */,
@@ -283,7 +543,10 @@
 			files = (
 				8736E4CF2470F6DA00826DE1 /* LaunchScreen.storyboard in Resources */,
 				8736E4CC2470F6DA00826DE1 /* Assets.xcassets in Resources */,
+				87B8ADE12475905F00D1CF5B /* TrainDetailTableViewCell.xib in Resources */,
+				87ACF9A82472B9B20078EBBB /* StationTableViewCell.xib in Resources */,
 				8736E4CA2470F6D800826DE1 /* Main.storyboard in Resources */,
+				879C39C72475B15200A309C6 /* TrainStationTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,29 +559,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13C2B8ACF211B1DA884484A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-irishTrainsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		190247FA6A4724373CE44DCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-irishTrains/Pods-irishTrains-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-irishTrains/Pods-irishTrains-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-irishTrains/Pods-irishTrains-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DB58C5CC188128DBB1EC39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-irishTrains-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8736E4BB2470F6D800826DE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B8ADD824757A2100D1CF5B /* StationDetailsList.swift in Sources */,
+				876EFB4024741EF4002C33C0 /* StationDetailsInteractor.swift in Sources */,
 				8736E4C72470F6D800826DE1 /* ViewController.swift in Sources */,
+				87B8ADF12475A01D00D1CF5B /* TrainDetailViewOutput.swift in Sources */,
+				879C39C92475B22000A309C6 /* TrainStationViewModel.swift in Sources */,
+				876EFB4224741EF4002C33C0 /* StationDetailsModuleConfigurator.swift in Sources */,
 				8736E4F02470F91300826DE1 /* StationsListInteractorInput.swift in Sources */,
 				8736E4F22470F91300826DE1 /* StationsListInteractor.swift in Sources */,
+				879C39C62475B15200A309C6 /* TrainStationTableViewCell.swift in Sources */,
+				876EFB2B2473FA6F002C33C0 /* Result+WebService.swift in Sources */,
 				8736E4EE2470F91300826DE1 /* StationsListInteractorOutput.swift in Sources */,
+				87B8ADF02475A01D00D1CF5B /* TrainDetailInteractor.swift in Sources */,
+				876EFB3C24741EF4002C33C0 /* StationDetailsInteractorOutput.swift in Sources */,
+				87B8ADEB2475A01D00D1CF5B /* TrainDetailViewInput.swift in Sources */,
+				87B8ADDC24758BAF00D1CF5B /* TrainViewModel.swift in Sources */,
 				8736E50824710EC400826DE1 /* UIViewController+ErrorHandler.swift in Sources */,
+				876EFB2F24740213002C33C0 /* StationList.swift in Sources */,
+				87B8ADCE2474539400D1CF5B /* TrainMovementList.swift in Sources */,
+				87B8ADE02475905F00D1CF5B /* TrainDetailTableViewCell.swift in Sources */,
 				8736E4FD2470FB9500826DE1 /* NSObject+ClassName.swift in Sources */,
+				876EFB3E24741EF4002C33C0 /* StationDetailsInteractorInput.swift in Sources */,
+				87B8ADEC2475A01D00D1CF5B /* TrainDetailInteractorOutput.swift in Sources */,
+				876EFB4124741EF4002C33C0 /* StationDetailsViewOutput.swift in Sources */,
+				87B8ADCA2474272C00D1CF5B /* Train.swift in Sources */,
 				8736E5062471061900826DE1 /* StationListCoordinator.swift in Sources */,
+				87B8ADEF2475A01D00D1CF5B /* TrainDetailViewController.swift in Sources */,
 				8736E4F32470F91300826DE1 /* StationsListViewOutput.swift in Sources */,
+				87B8ADED2475A01D00D1CF5B /* TrainDetailPresenter.swift in Sources */,
 				8736E4F42470F91300826DE1 /* StationsListModuleConfigurator.swift in Sources */,
 				8736E5032470FF0500826DE1 /* StoryboardProvider.swift in Sources */,
+				87B8ADD0247453A600D1CF5B /* TrainMovement.swift in Sources */,
 				8736E4C32470F6D800826DE1 /* AppDelegate.swift in Sources */,
+				876EFB3F24741EF4002C33C0 /* StationDetailsViewController.swift in Sources */,
 				8736E4ED2470F91300826DE1 /* StationsListViewInput.swift in Sources */,
 				8736E4FF2470FC6C00826DE1 /* Activable.swift in Sources */,
+				87B8ADDA24757A9700D1CF5B /* StationDetail.swift in Sources */,
+				876EFB3124740965002C33C0 /* StationViewModel.swift in Sources */,
+				876EFB3B24741EF4002C33C0 /* StationDetailsViewInput.swift in Sources */,
+				876EFB3D24741EF4002C33C0 /* StationDetailsPresenter.swift in Sources */,
+				87B8ADEE2475A01D00D1CF5B /* TrainDetailInteractorInput.swift in Sources */,
+				87040AC82472CD9B002FCCA2 /* Station.swift in Sources */,
 				8736E4C52470F6D800826DE1 /* SceneDelegate.swift in Sources */,
+				87B8ADF22475A01D00D1CF5B /* TrainDetailModuleConfigurator.swift in Sources */,
+				87ACF9A72472B9B20078EBBB /* StationTableViewCell.swift in Sources */,
+				87B8ADCC2474273D00D1CF5B /* TrainList.swift in Sources */,
 				8736E4F12470F91300826DE1 /* StationsListViewController.swift in Sources */,
 				8736E5012470FD5F00826DE1 /* ErrorHandler.swift in Sources */,
 				8736E4FB2470FA6C00826DE1 /* UIViewController+StoryBoardCreation.swift in Sources */,
 				8736E4EF2470F91300826DE1 /* StationsListPresenter.swift in Sources */,
+				87040AC62472CD0F002FCCA2 /* StationsWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +835,7 @@
 		};
 		8736E4DF2470F6DA00826DE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E520B68578C6A63C931085 /* Pods-irishTrains.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +853,7 @@
 		};
 		8736E4E02470F6DA00826DE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8764C37A5D918688A1FAFE /* Pods-irishTrains.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +871,7 @@
 		};
 		8736E4E22470F6DA00826DE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75E2A5780CF258FEFFB2D16 /* Pods-irishTrainsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,6 +893,7 @@
 		};
 		8736E4E32470F6DA00826DE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133D8D0FFB10E2C21661E752 /* Pods-irishTrainsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

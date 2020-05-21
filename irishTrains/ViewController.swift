@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet private weak var continueButton: UIButton!
+    private var stationListCoordinator: StationListCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,9 +28,10 @@ class ViewController: UIViewController {
         guard let navigationViewController = navigationController else {
             return
         }
-        let stationListCoordinator = StationListCoordinator(navigationController: navigationViewController,
+
+        stationListCoordinator = StationListCoordinator(navigationController: navigationViewController,
                                                             errorHandler: errorHandler)
-        stationListCoordinator.start()
+        stationListCoordinator?.start()
     }
 }
 
